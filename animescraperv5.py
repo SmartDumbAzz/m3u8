@@ -72,12 +72,16 @@ def get_season_info():
         'name': f"Season{season_number}"
     }
 
-def get_episode_prefix(season_info, ep_idx):
-    """Generate a consistent episode prefix."""
+def get_episode_prefix(season_info, ep_idx, human_readable=False):
+    """Generate a consistent episode prefix with optional human-readable formatting."""
     if season_info['use_seasons']:
-        return f"S{season_info['number']:02d}E{ep_idx:02d}"
+        base = f"S{season_info['number']:02d}E{ep_idx:02d}"
     else:
-        return f"E{ep_idx:03d}"
+        base = f"E{ep_idx:03d}"
+    
+    if human_readable:
+        return base.replace('_', ' ')
+    return base
 
 def process_m3u8(url):
     try:
@@ -105,7 +109,7 @@ def process_m3u8(url):
 def search_series(query):
     """Search for anime series on the website"""
     with sync_playwright() as p:
-        browser = p.firefox.launch(headless=False)
+        browser = p.firefox.launch(headless=True)
         page = browser.new_page()
         page.goto(SEARCH_URL.format(query=query))
         page.wait_for_selector('.flw-item', timeout=20000)
@@ -122,9 +126,9 @@ def search_series(query):
         return results
 
 def get_episodes(url):
-    """Get all episodes from a series page"""
+    """Get all episodes from a series (season) page"""
     with sync_playwright() as p:
-        browser = p.firefox.launch(headless=False)
+        browser = p.firefox.launch(headless=True)
         page = browser.new_page()
         page.goto(url)
         page.wait_for_selector('#detail-ss-list .ssl-item', timeout=20000)
@@ -139,7 +143,7 @@ def get_episodes(url):
         browser.close()
         return episodes
 
-def process_series(title, episodes, season_info):
+def process_series(title, episodes, season_info, season_link=None):
     sanitized = re.sub(r'[^\w\-_ ]', '', title).strip().replace(' ', '_')
     sub_base = os.path.join("Anime - Sub", sanitized)
     dub_base = os.path.join("Anime - Dub", sanitized)
@@ -151,6 +155,15 @@ def process_series(title, episodes, season_info):
     os.makedirs(sub_base, exist_ok=True)
     os.makedirs(dub_base, exist_ok=True)
 
+    # Record the season link if provided so that later refreshes use the correct season page
+    if season_link:
+        season_link_path_sub = os.path.join(sub_base, "season_link.txt")
+        with open(season_link_path_sub, "w") as f:
+            f.write(season_link)
+        season_link_path_dub = os.path.join(dub_base, "season_link.txt")
+        with open(season_link_path_dub, "w") as f:
+            f.write(season_link)
+    
     for idx, (ep_num, url) in enumerate(episodes, 1):
         print(f"\nProcessing Episode {ep_num} ({idx}/{len(episodes)})")
         process_episode(url, sub_base, dub_base, sanitized, season_info, idx)
@@ -165,7 +178,7 @@ def process_episode(url, sub_dir, dub_dir, series_name, season_info, ep_idx):
         with sync_playwright() as p:
             browser = p.firefox.launch(
                 proxy={"server": "http://localhost:8080"},
-                headless=False
+                headless=True
             )
             context = browser.new_context(ignore_https_errors=True)
             context.add_init_script("delete Object.getPrototypeOf(navigator).webdriver;")
@@ -218,17 +231,6 @@ def download_vtt(url, directory, season_info, ep_idx):
             print(f"Downloaded subtitle: {vtt_path}")
     except Exception as e:
         print(f"VTT download error: {str(e)}")
-
-def get_episode_prefix(season_info, ep_idx, human_readable=False):
-    """Generate episode prefix with optional human-readable formatting"""
-    if season_info['use_seasons']:
-        base = f"S{season_info['number']:02d}E{ep_idx:02d}"
-    else:
-        base = f"E{ep_idx:03d}"
-    
-    if human_readable:
-        return base.replace('_', ' ')
-    return base
 
 def save_media(m3u8_url, base_dir, season_info, ep_idx, version):
     content = process_m3u8(m3u8_url)
@@ -359,33 +361,51 @@ def refresh_all_series():
     
     for series_name, data in existing_series.items():
         print(f"\nRefreshing: {series_name}")
-        results = search_series(series_name)
-        
-        if not results:
-            print(f"Warning: {series_name} not found on site, skipping")
-            continue
-            
-        selected_idx, selected_title, selected_url = results[0]
-        episodes = get_episodes(selected_url)
-        
-        if not episodes:
-            print(f"Warning: No episodes found for {series_name}, skipping")
-            continue
-        
-        season_info = {'use_seasons': False}
         series_path = data['path']
-        if any(os.path.isdir(os.path.join(series_path, d)) for d in os.listdir(series_path) if d.startswith('Season')):
-            for season_dir in sorted([d for d in os.listdir(series_path) if d.startswith('Season')]):
-                season_num = int(season_dir.replace('Season', ''))
+        # Check if there are season directories
+        season_dirs = [d for d in os.listdir(series_path) if os.path.isdir(os.path.join(series_path, d)) and d.startswith('Season')]
+        if season_dirs:
+            for season_dir in sorted(season_dirs):
+                season_link_file = os.path.join(series_path, season_dir, "season_link.txt")
+                if os.path.exists(season_link_file):
+                    with open(season_link_file, "r") as f:
+                        season_link = f.read().strip()
+                else:
+                    results = search_series(series_name)
+                    if not results:
+                        print(f"Warning: {series_name} not found on site, skipping")
+                        continue
+                    selected_idx, selected_title, selected_url = results[0]
+                    season_link = selected_url
                 season_info = {
                     'use_seasons': True,
-                    'number': season_num,
+                    'number': int(season_dir.replace('Season', '')),
                     'name': season_dir
                 }
                 print(f"Processing {series_name} {season_dir}")
-                process_series(series_name, episodes, season_info)
+                episodes = get_episodes(season_link)
+                if not episodes:
+                    print(f"Warning: No episodes found for {series_name} {season_dir}, skipping")
+                    continue
+                process_series(series_name, episodes, season_info, season_link=season_link)
         else:
-            process_series(series_name, episodes, season_info)
+            season_link_file = os.path.join(series_path, "season_link.txt")
+            if os.path.exists(season_link_file):
+                with open(season_link_file, "r") as f:
+                    season_link = f.read().strip()
+            else:
+                results = search_series(series_name)
+                if not results:
+                    print(f"Warning: {series_name} not found on site, skipping")
+                    continue
+                selected_idx, selected_title, selected_url = results[0]
+                season_link = selected_url
+            season_info = {'use_seasons': False}
+            episodes = get_episodes(season_link)
+            if not episodes:
+                print(f"Warning: No episodes found for {series_name}, skipping")
+                continue
+            process_series(series_name, episodes, season_info, season_link=season_link)
     
     print("\nRefresh complete!")
     upload_to_github("all_series_refresh")
@@ -442,7 +462,7 @@ if __name__ == "__main__":
             selected_episodes = episodes
         
         season = get_season_info()
-        process_series(selected_title, selected_episodes, season)
+        process_series(selected_title, selected_episodes, season, season_link=selected_url)
         upload_to_github(selected_title)
         
     elif mode == "2":
@@ -470,11 +490,51 @@ if __name__ == "__main__":
         if not results:
             sys.exit(f"Series '{selected_series}' not found on site")
         
-        selected_idx, selected_title, selected_url = results[0]
-        episodes = get_episodes(selected_url)
+        selected_idx, selected_title, _ = results[0]
+        series_path = existing_series[selected_series]['path']
+        # Determine season link either from recorded file or fallback to search
+        if any(os.path.isdir(os.path.join(series_path, d)) for d in os.listdir(series_path) if d.startswith('Season')):
+            seasons = sorted([d for d in os.listdir(series_path) if os.path.isdir(os.path.join(series_path, d)) and d.startswith('Season')])
+            print("\nAvailable seasons:")
+            for idx, season in enumerate(seasons, 1):
+                print(f"{idx}. {season}")
+            
+            season_choice = int(input("\nSelect season: "))
+            if season_choice < 1 or season_choice > len(seasons):
+                sys.exit("Invalid selection")
+            
+            selected_season = seasons[season_choice-1]
+            season_link_file = os.path.join(series_path, selected_season, "season_link.txt")
+            if os.path.exists(season_link_file):
+                with open(season_link_file, "r") as f:
+                    season_link = f.read().strip()
+            else:
+                results = search_series(selected_series)
+                if not results:
+                    sys.exit(f"Series '{selected_series}' not found on site")
+                _, _, selected_url = results[0]
+                season_link = selected_url
+            season_info = {
+                'use_seasons': True,
+                'number': int(selected_season.replace('Season','')),
+                'name': selected_season
+            }
+        else:
+            season_link_file = os.path.join(series_path, "season_link.txt")
+            if os.path.exists(season_link_file):
+                with open(season_link_file, "r") as f:
+                    season_link = f.read().strip()
+            else:
+                results = search_series(selected_series)
+                if not results:
+                    sys.exit(f"Series '{selected_series}' not found on site")
+                _, _, selected_url = results[0]
+                season_link = selected_url
+            season_info = {'use_seasons': False}
+        
+        episodes = get_episodes(season_link)
         if not episodes:
             sys.exit("No episodes found")
-        
         print(f"\nFound {len(episodes)} episodes for {selected_series}")
         
         while True:
@@ -487,28 +547,7 @@ if __name__ == "__main__":
             except ValueError:
                 print("Please enter a valid number")
         
-        season_info = {'use_seasons': False}
-        series_path = existing_series[selected_series]['path']
-        
-        if any(os.path.isdir(os.path.join(series_path, d)) for d in os.listdir(series_path) if d.startswith('Season')):
-            seasons = sorted([d for d in os.listdir(series_path) if d.startswith('Season')])
-            print("\nAvailable seasons:")
-            for idx, season in enumerate(seasons, 1):
-                print(f"{idx}. {season}")
-            
-            season_choice = int(input("\nSelect season: "))
-            if season_choice < 1 or season_choice > len(seasons):
-                sys.exit("Invalid selection")
-            
-            selected_season = seasons[season_choice-1]
-            season_num = int(selected_season.replace('Season', ''))
-            season_info = {
-                'use_seasons': True,
-                'number': season_num,
-                'name': selected_season
-            }
-        
-        process_series(selected_series, selected_episodes, season_info)
+        process_series(selected_series, selected_episodes, season_info, season_link=season_link)
         upload_to_github(f"{selected_series}_episode_{ep_num}")
     
     else:
