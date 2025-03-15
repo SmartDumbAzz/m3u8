@@ -6,4 +6,4 @@
 Episodes/S01E01.m3u8
 
 # Subtitle track reference
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="English",DEFAULT=YES,AUTOSELECT=YES,FORCED=YES,LANGUAGE="en",URI="S01E01.vtt"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="English",DEFAULT=YES,AUTOSELECT=YES,FORCED=YES,LANGUAGE="en",URI="https://smartdumbazz.github.io/m3u8/Anime%20-%20Dub/Solo_Leveling/Season1/S01E01.vtt"
