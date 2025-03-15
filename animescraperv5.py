@@ -166,7 +166,13 @@ def process_series(title, episodes, season_info, season_link=None):
     
     for idx, (ep_num, url) in enumerate(episodes, 1):
         print(f"\nProcessing Episode {ep_num} ({idx}/{len(episodes)})")
-        process_episode(url, sub_base, dub_base, sanitized, season_info, idx)
+        try:
+            ep_number = int(ep_num)
+        except ValueError:
+            # Fallback if the episode number isn’t an integer
+            ep_number = idx
+        process_episode(url, sub_base, dub_base, sanitized, season_info, ep_number)
+
     
     create_strm_for_series(sub_base, dub_base)
 
