@@ -1,570 +1,1009 @@
 WEBVTT
 
-1
-00:00:00.000 --> 00:00:10.000
-sprite-0.jpg#xywh=0,0,178,100
-
-2
-00:00:10.000 --> 00:00:20.000
-sprite-0.jpg#xywh=178,0,178,100
-
-3
-00:00:20.000 --> 00:00:30.000
-sprite-0.jpg#xywh=356,0,178,100
-
-4
-00:00:30.000 --> 00:00:40.000
-sprite-0.jpg#xywh=534,0,178,100
-
-5
-00:00:40.000 --> 00:00:50.000
-sprite-0.jpg#xywh=712,0,178,100
-
-6
-00:00:50.000 --> 00:01:00.000
-sprite-0.jpg#xywh=890,0,178,100
-
-7
-00:01:00.000 --> 00:01:10.000
-sprite-0.jpg#xywh=1068,0,178,100
-
-8
-00:01:10.000 --> 00:01:20.000
-sprite-0.jpg#xywh=0,100,178,100
-
-9
-00:01:20.000 --> 00:01:30.000
-sprite-0.jpg#xywh=178,100,178,100
-
-10
-00:01:30.000 --> 00:01:40.000
-sprite-0.jpg#xywh=356,100,178,100
-
-11
-00:01:40.000 --> 00:01:50.000
-sprite-0.jpg#xywh=534,100,178,100
-
-12
-00:01:50.000 --> 00:02:00.000
-sprite-0.jpg#xywh=712,100,178,100
-
-13
-00:02:00.000 --> 00:02:10.000
-sprite-0.jpg#xywh=890,100,178,100
-
-14
-00:02:10.000 --> 00:02:20.000
-sprite-0.jpg#xywh=1068,100,178,100
-
-15
-00:02:20.000 --> 00:02:30.000
-sprite-0.jpg#xywh=0,200,178,100
-
-16
-00:02:30.000 --> 00:02:40.000
-sprite-0.jpg#xywh=178,200,178,100
-
-17
-00:02:40.000 --> 00:02:50.000
-sprite-0.jpg#xywh=356,200,178,100
-
-18
-00:02:50.000 --> 00:03:00.000
-sprite-0.jpg#xywh=534,200,178,100
-
-19
-00:03:00.000 --> 00:03:10.000
-sprite-0.jpg#xywh=712,200,178,100
-
-20
-00:03:10.000 --> 00:03:20.000
-sprite-0.jpg#xywh=890,200,178,100
-
-21
-00:03:20.000 --> 00:03:30.000
-sprite-0.jpg#xywh=1068,200,178,100
-
-22
-00:03:30.000 --> 00:03:40.000
-sprite-0.jpg#xywh=0,300,178,100
-
-23
-00:03:40.000 --> 00:03:50.000
-sprite-0.jpg#xywh=178,300,178,100
-
-24
-00:03:50.000 --> 00:04:00.000
-sprite-0.jpg#xywh=356,300,178,100
-
-25
-00:04:00.000 --> 00:04:10.000
-sprite-0.jpg#xywh=534,300,178,100
-
-26
-00:04:10.000 --> 00:04:20.000
-sprite-0.jpg#xywh=712,300,178,100
-
-27
-00:04:20.000 --> 00:04:30.000
-sprite-0.jpg#xywh=890,300,178,100
-
-28
-00:04:30.000 --> 00:04:40.000
-sprite-0.jpg#xywh=1068,300,178,100
-
-29
-00:04:40.000 --> 00:04:50.000
-sprite-0.jpg#xywh=0,400,178,100
-
-30
-00:04:50.000 --> 00:05:00.000
-sprite-0.jpg#xywh=178,400,178,100
-
-31
-00:05:00.000 --> 00:05:10.000
-sprite-0.jpg#xywh=356,400,178,100
-
-32
-00:05:10.000 --> 00:05:20.000
-sprite-0.jpg#xywh=534,400,178,100
-
-33
-00:05:20.000 --> 00:05:30.000
-sprite-0.jpg#xywh=712,400,178,100
-
-34
-00:05:30.000 --> 00:05:40.000
-sprite-0.jpg#xywh=890,400,178,100
-
-35
-00:05:40.000 --> 00:05:50.000
-sprite-0.jpg#xywh=1068,400,178,100
-
-36
-00:05:50.000 --> 00:06:00.000
-sprite-0.jpg#xywh=0,500,178,100
-
-37
-00:06:00.000 --> 00:06:10.000
-sprite-0.jpg#xywh=178,500,178,100
-
-38
-00:06:10.000 --> 00:06:20.000
-sprite-0.jpg#xywh=356,500,178,100
-
-39
-00:06:20.000 --> 00:06:30.000
-sprite-0.jpg#xywh=534,500,178,100
-
-40
-00:06:30.000 --> 00:06:40.000
-sprite-0.jpg#xywh=712,500,178,100
-
-41
-00:06:40.000 --> 00:06:50.000
-sprite-0.jpg#xywh=890,500,178,100
-
-42
-00:06:50.000 --> 00:07:00.000
-sprite-0.jpg#xywh=1068,500,178,100
-
-43
-00:07:00.000 --> 00:07:10.000
-sprite-0.jpg#xywh=0,600,178,100
-
-44
-00:07:10.000 --> 00:07:20.000
-sprite-0.jpg#xywh=178,600,178,100
-
-45
-00:07:20.000 --> 00:07:30.000
-sprite-0.jpg#xywh=356,600,178,100
-
-46
-00:07:30.000 --> 00:07:40.000
-sprite-0.jpg#xywh=534,600,178,100
-
-47
-00:07:40.000 --> 00:07:50.000
-sprite-0.jpg#xywh=712,600,178,100
-
-48
-00:07:50.000 --> 00:08:00.000
-sprite-0.jpg#xywh=890,600,178,100
-
-49
-00:08:00.000 --> 00:08:10.000
-sprite-0.jpg#xywh=1068,600,178,100
-
-50
-00:08:10.000 --> 00:08:20.000
-sprite-1.jpg#xywh=0,0,178,100
-
-51
-00:08:20.000 --> 00:08:30.000
-sprite-1.jpg#xywh=178,0,178,100
-
-52
-00:08:30.000 --> 00:08:40.000
-sprite-1.jpg#xywh=356,0,178,100
-
-53
-00:08:40.000 --> 00:08:50.000
-sprite-1.jpg#xywh=534,0,178,100
-
-54
-00:08:50.000 --> 00:09:00.000
-sprite-1.jpg#xywh=712,0,178,100
-
-55
-00:09:00.000 --> 00:09:10.000
-sprite-1.jpg#xywh=890,0,178,100
-
-56
-00:09:10.000 --> 00:09:20.000
-sprite-1.jpg#xywh=1068,0,178,100
-
-57
-00:09:20.000 --> 00:09:30.000
-sprite-1.jpg#xywh=0,100,178,100
-
-58
-00:09:30.000 --> 00:09:40.000
-sprite-1.jpg#xywh=178,100,178,100
-
-59
-00:09:40.000 --> 00:09:50.000
-sprite-1.jpg#xywh=356,100,178,100
-
-60
-00:09:50.000 --> 00:10:00.000
-sprite-1.jpg#xywh=534,100,178,100
-
-61
-00:10:00.000 --> 00:10:10.000
-sprite-1.jpg#xywh=712,100,178,100
-
-62
-00:10:10.000 --> 00:10:20.000
-sprite-1.jpg#xywh=890,100,178,100
-
-63
-00:10:20.000 --> 00:10:30.000
-sprite-1.jpg#xywh=1068,100,178,100
-
-64
-00:10:30.000 --> 00:10:40.000
-sprite-1.jpg#xywh=0,200,178,100
-
-65
-00:10:40.000 --> 00:10:50.000
-sprite-1.jpg#xywh=178,200,178,100
-
-66
-00:10:50.000 --> 00:11:00.000
-sprite-1.jpg#xywh=356,200,178,100
-
-67
-00:11:00.000 --> 00:11:10.000
-sprite-1.jpg#xywh=534,200,178,100
-
-68
-00:11:10.000 --> 00:11:20.000
-sprite-1.jpg#xywh=712,200,178,100
-
-69
-00:11:20.000 --> 00:11:30.000
-sprite-1.jpg#xywh=890,200,178,100
-
-70
-00:11:30.000 --> 00:11:40.000
-sprite-1.jpg#xywh=1068,200,178,100
-
-71
-00:11:40.000 --> 00:11:50.000
-sprite-1.jpg#xywh=0,300,178,100
-
-72
-00:11:50.000 --> 00:12:00.000
-sprite-1.jpg#xywh=178,300,178,100
-
-73
-00:12:00.000 --> 00:12:10.000
-sprite-1.jpg#xywh=356,300,178,100
-
-74
-00:12:10.000 --> 00:12:20.000
-sprite-1.jpg#xywh=534,300,178,100
-
-75
-00:12:20.000 --> 00:12:30.000
-sprite-1.jpg#xywh=712,300,178,100
-
-76
-00:12:30.000 --> 00:12:40.000
-sprite-1.jpg#xywh=890,300,178,100
-
-77
-00:12:40.000 --> 00:12:50.000
-sprite-1.jpg#xywh=1068,300,178,100
-
-78
-00:12:50.000 --> 00:13:00.000
-sprite-1.jpg#xywh=0,400,178,100
-
-79
-00:13:00.000 --> 00:13:10.000
-sprite-1.jpg#xywh=178,400,178,100
-
-80
-00:13:10.000 --> 00:13:20.000
-sprite-1.jpg#xywh=356,400,178,100
-
-81
-00:13:20.000 --> 00:13:30.000
-sprite-1.jpg#xywh=534,400,178,100
-
-82
-00:13:30.000 --> 00:13:40.000
-sprite-1.jpg#xywh=712,400,178,100
-
-83
-00:13:40.000 --> 00:13:50.000
-sprite-1.jpg#xywh=890,400,178,100
-
-84
-00:13:50.000 --> 00:14:00.000
-sprite-1.jpg#xywh=1068,400,178,100
-
-85
-00:14:00.000 --> 00:14:10.000
-sprite-1.jpg#xywh=0,500,178,100
-
-86
-00:14:10.000 --> 00:14:20.000
-sprite-1.jpg#xywh=178,500,178,100
-
-87
-00:14:20.000 --> 00:14:30.000
-sprite-1.jpg#xywh=356,500,178,100
-
-88
-00:14:30.000 --> 00:14:40.000
-sprite-1.jpg#xywh=534,500,178,100
-
-89
-00:14:40.000 --> 00:14:50.000
-sprite-1.jpg#xywh=712,500,178,100
-
-90
-00:14:50.000 --> 00:15:00.000
-sprite-1.jpg#xywh=890,500,178,100
-
-91
-00:15:00.000 --> 00:15:10.000
-sprite-1.jpg#xywh=1068,500,178,100
-
-92
-00:15:10.000 --> 00:15:20.000
-sprite-1.jpg#xywh=0,600,178,100
-
-93
-00:15:20.000 --> 00:15:30.000
-sprite-1.jpg#xywh=178,600,178,100
-
-94
-00:15:30.000 --> 00:15:40.000
-sprite-1.jpg#xywh=356,600,178,100
-
-95
-00:15:40.000 --> 00:15:50.000
-sprite-1.jpg#xywh=534,600,178,100
-
-96
-00:15:50.000 --> 00:16:00.000
-sprite-1.jpg#xywh=712,600,178,100
-
-97
-00:16:00.000 --> 00:16:10.000
-sprite-1.jpg#xywh=890,600,178,100
-
-98
-00:16:10.000 --> 00:16:20.000
-sprite-1.jpg#xywh=1068,600,178,100
-
-99
-00:16:20.000 --> 00:16:30.000
-sprite-2.jpg#xywh=0,0,178,100
-
-100
-00:16:30.000 --> 00:16:40.000
-sprite-2.jpg#xywh=178,0,178,100
-
-101
-00:16:40.000 --> 00:16:50.000
-sprite-2.jpg#xywh=356,0,178,100
-
-102
-00:16:50.000 --> 00:17:00.000
-sprite-2.jpg#xywh=534,0,178,100
-
-103
-00:17:00.000 --> 00:17:10.000
-sprite-2.jpg#xywh=712,0,178,100
-
-104
-00:17:10.000 --> 00:17:20.000
-sprite-2.jpg#xywh=890,0,178,100
-
-105
-00:17:20.000 --> 00:17:30.000
-sprite-2.jpg#xywh=1068,0,178,100
-
-106
-00:17:30.000 --> 00:17:40.000
-sprite-2.jpg#xywh=0,100,178,100
-
-107
-00:17:40.000 --> 00:17:50.000
-sprite-2.jpg#xywh=178,100,178,100
-
-108
-00:17:50.000 --> 00:18:00.000
-sprite-2.jpg#xywh=356,100,178,100
-
-109
-00:18:00.000 --> 00:18:10.000
-sprite-2.jpg#xywh=534,100,178,100
-
-110
-00:18:10.000 --> 00:18:20.000
-sprite-2.jpg#xywh=712,100,178,100
-
-111
-00:18:20.000 --> 00:18:30.000
-sprite-2.jpg#xywh=890,100,178,100
-
-112
-00:18:30.000 --> 00:18:40.000
-sprite-2.jpg#xywh=1068,100,178,100
-
-113
-00:18:40.000 --> 00:18:50.000
-sprite-2.jpg#xywh=0,200,178,100
-
-114
-00:18:50.000 --> 00:19:00.000
-sprite-2.jpg#xywh=178,200,178,100
-
-115
-00:19:00.000 --> 00:19:10.000
-sprite-2.jpg#xywh=356,200,178,100
-
-116
-00:19:10.000 --> 00:19:20.000
-sprite-2.jpg#xywh=534,200,178,100
-
-117
-00:19:20.000 --> 00:19:30.000
-sprite-2.jpg#xywh=712,200,178,100
-
-118
-00:19:30.000 --> 00:19:40.000
-sprite-2.jpg#xywh=890,200,178,100
+00:00.000 --> 00:05.980
+<b>20 H 38 - NIVEAU -3 DE LA TOUR SHIBUYA HIKARIE</b>
 
-119
-00:19:40.000 --> 00:19:50.000
-sprite-2.jpg#xywh=1068,200,178,100
+00:16.560 --> 00:18.370
+<b>Ah ouais, horrible…</b>
 
-120
-00:19:50.000 --> 00:20:00.000
-sprite-2.jpg#xywh=0,300,178,100
+00:18.950 --> 00:20.410
+<b><i>Comme à l’extérieur,</i></b>
 
-121
-00:20:00.000 --> 00:20:10.000
-sprite-2.jpg#xywh=178,300,178,100
+00:20.540 --> 00:24.540
+<b><i>cet étage est le centre d’un Rideau
+qui enferme les non-exorcistes ?</i></b>
 
-122
-00:20:10.000 --> 00:20:20.000
-sprite-2.jpg#xywh=356,300,178,100
+00:29.920 --> 00:31.590
+<b>Désolé, je passe.</b>
 
-123
-00:20:20.000 --> 00:20:30.000
-sprite-2.jpg#xywh=534,300,178,100
+00:33.760 --> 00:35.050
+<b>Et hop-là !</b>
 
-124
-00:20:30.000 --> 00:20:40.000
-sprite-2.jpg#xywh=712,300,178,100
+00:42.640 --> 00:45.100
+<b>Je pense comprendre
+ce qu’ils veulent.</b>
 
-125
-00:20:40.000 --> 00:20:50.000
-sprite-2.jpg#xywh=890,300,178,100
+00:48.440 --> 00:50.110
+<b>Je vais jouer le jeu.</b>
 
-126
-00:20:50.000 --> 00:21:00.000
-sprite-2.jpg#xywh=1068,300,178,100
+00:50.110 --> 00:53.860
+<b>20 H 39 - CIMETIÈRE D’AOYAMA</b>
 
-127
-00:21:00.000 --> 00:21:10.000
-sprite-2.jpg#xywh=0,400,178,100
+00:50.980 --> 00:53.530
+<b>On doit laisser M. Gojo
+s’en charger seul ?</b>
 
-128
-00:21:10.000 --> 00:21:20.000
-sprite-2.jpg#xywh=178,400,178,100
+00:54.360 --> 00:58.410
+<b>Je vois la logique,
+mais on doit bien pouvoir aider !</b>
 
-129
-00:21:20.000 --> 00:21:30.000
-sprite-2.jpg#xywh=356,400,178,100
+00:58.570 --> 01:00.080
+<b>En renforts !</b>
 
-130
-00:21:30.000 --> 00:21:40.000
-sprite-2.jpg#xywh=534,400,178,100
+01:03.120 --> 01:05.920
+<b>Oui, c’est justement pour ça</b>
 
-131
-00:21:40.000 --> 00:21:50.000
-sprite-2.jpg#xywh=712,400,178,100
+01:06.080 --> 01:08.420
+<b>qu’on se rend aussi à Shibuya.</b>
 
-132
-00:21:50.000 --> 00:22:00.000
-sprite-2.jpg#xywh=890,400,178,100
+01:08.540 --> 01:10.120
+<b>Ah, on y va ?</b>
 
-133
-00:22:00.000 --> 00:22:10.000
-sprite-2.jpg#xywh=1068,400,178,100
+01:10.240 --> 01:12.300
+<b>– Rends-moi ça.
+– <i>Je le tenais juste !</i></b>
 
-134
-00:22:10.000 --> 00:22:20.000
-sprite-2.jpg#xywh=0,500,178,100
+01:14.420 --> 01:17.430
+<b>N’envoyer ma sœur qu’en renforts…</b>
 
-135
-00:22:20.000 --> 00:22:30.000
-sprite-2.jpg#xywh=178,500,178,100
+01:17.760 --> 01:21.100
+<b>Satoru Gojo ne connaît pas
+la valeur des gens.</b>
 
-136
-00:22:30.000 --> 00:22:40.000
-sprite-2.jpg#xywh=356,500,178,100
+01:21.220 --> 01:24.930
+<b>Il est bien au-dessus
+de tous les autres hommes.</b>
 
-137
-00:22:40.000 --> 00:22:50.000
-sprite-2.jpg#xywh=534,500,178,100
+01:24.930 --> 01:30.440
+<b>UN DES AUTRES HOMMES</b>
 
-138
-00:22:50.000 --> 00:23:00.000
-sprite-2.jpg#xywh=712,500,178,100
+01:25.100 --> 01:28.650
+<b>Toi aussi, tu es bien au-dessus
+de toutes les autres femmes.</b>
 
-139
-00:23:00.000 --> 00:23:10.000
-sprite-2.jpg#xywh=890,500,178,100
+01:28.770 --> 01:30.440
+<b>Oh, Ui Ui…</b>
 
-140
-00:23:10.000 --> 00:23:20.000
-sprite-2.jpg#xywh=1068,500,178,100
+01:30.610 --> 01:32.940
+<b>Tu es si adorable !</b>
 
-141
-00:23:20.000 --> 00:23:30.000
-sprite-2.jpg#xywh=0,600,178,100
+01:33.070 --> 01:35.400
+<b>Je sais que tu ne le penses pas.</b>
 
-142
-00:23:30.000 --> 00:23:40.000
-sprite-2.jpg#xywh=178,600,178,100
+01:33.610 --> 01:41.080
+<b>ÉQUIPE MEI MEI : MEI MEI (CLASSE 1)
+UI UI
+YUJI ITADORI (EN ATTENTE DE PROMOTION)</b>
 
+01:35.530 --> 01:38.410
+<b>Tu n’apprécies pas
+les liens familiaux,</b>
+
+01:38.530 --> 01:41.080
+<b>juste ce qu’ils te rapportent.</b>
+
+01:42.160 --> 01:46.410
+<b>Tu me connais parfaitement.
+C’est ça que j’aime chez toi.</b>
+
+01:47.580 --> 01:49.040
+<b><i>Bon, on y va, ou quoi ?</i></b>
+
+01:50.580 --> 01:52.210
+<b>Oui, ici Mei Mei.</b>
+
+01:52.750 --> 01:53.460
+<b>Entendu.</b>
+
+01:55.800 --> 01:58.380
+<b>Changement de programme, Yuji.</b>
+
+01:59.390 --> 02:03.600
+<b>Un autre Rideau a été abaissé
+à la station du sanctuaire Meiji.</b>
+
+02:03.760 --> 02:05.770
+<b>C’est là qu’on se rend.</b>
+
+02:08.190 --> 02:11.110
+<b>Au pas de course.
+Ne te laisse pas distancer.</b>
+
+02:11.810 --> 02:12.860
+<b>OK !</b>
+
+02:18.110 --> 02:20.110
+<b>20 H 40 - STATION DE SHIBUYA, NIVEAU -5</b>
+
+02:23.530 --> 02:25.490
+<b>Vous êtes bien organisés.</b>
+
+02:29.920 --> 02:31.220
+<b>Te voilà.</b>
+
+02:31.830 --> 02:34.670
+<b>Vous n’aurez plus d’excuses
+après cette défaite.</b>
+
+02:35.050 --> 02:40.010
+<b>Et toi, tu as préparé
+les premières excuses de ta vie ?</b>
+
+02:40.010 --> 02:43.010
+<b>ÉPISODE 32
+
+LE DRAME DE SHIBUYA</b>
+
+02:53.560 --> 02:58.070
+<b>JUJUTSU KAISEN
+<b>LE DRAME DE SHIBUYA</b></b>
+
+04:12.980 --> 04:18.980
+<b>QUAIS</b>
+
+04:14.230 --> 04:18.820
+<b>Un Rideau retient les non-exorcistes
+dans la station de métro.</b>
+
+04:18.980 --> 04:25.660
+<b>20 H 51 - SORTIE 2 DE LA STATION DU SANCTUAIRE MEIJI</b>
+
+04:19.190 --> 04:22.610
+<b>À l’intérieur,
+autour des quais au niveau -5,</b>
+
+04:22.740 --> 04:25.660
+<b>un autre Rideau
+empêche les exorcistes d’entrer.</b>
+
+04:26.370 --> 04:30.290
+<b>Le fléau ou maître des fléaux
+qui les a abaissés</b>
+
+04:30.410 --> 04:32.370
+<b>se trouve entre les deux.</b>
+
+04:33.120 --> 04:34.210
+<b>Entre les deux ?</b>
+
+04:34.710 --> 04:37.080
+<b>Pas au niveau des quais ?</b>
+
+04:37.460 --> 04:41.670
+<b>Nous pensons qu’il aide
+à renforcer les barrières magiques,</b>
+
+04:41.800 --> 04:44.340
+<b>malgré les risques encourus.</b>
+
+04:44.470 --> 04:47.340
+<b>Nous y avons perdu deux assistants.</b>
+
+04:47.710 --> 04:50.510
+<b>Aussi, dans cette zone…</b>
+
+04:51.220 --> 04:52.350
+<b>Enfin,</b>
+
+04:53.020 --> 04:56.100
+<b>ce n’est pas encore
+confirmé à 100 %…</b>
+
+04:56.600 --> 04:59.360
+<b>Ça ne fait rien, dis quand même.</b>
+
+05:03.570 --> 05:05.150
+<b>Entre les deux Rideaux…</b>
+
+05:06.610 --> 05:08.620
+<b>il y a des humains altérés.</b>
+
+05:31.560 --> 05:33.390
+<b>Vous attendez quoi ? On bouge !</b>
+
+05:33.640 --> 05:38.190
+<b>Chut. Ma sœur regarde
+à travers les yeux des corbeaux.</b>
+
+05:38.350 --> 05:41.570
+<b>Ça requiert une grande concentration,
+tais-toi.</b>
+
+05:42.070 --> 05:44.570
+<b>Vous pouvez parler
+en même temps.</b>
+
+05:44.740 --> 05:45.570
+<b>Et toc !</b>
+
+05:45.690 --> 05:48.030
+<b>T’es pas sympa de me contredire !</b>
+
+05:54.870 --> 05:56.330
+<b>Je vois le topo.</b>
+
+05:57.000 --> 05:58.210
+<b>Itadori,</b>
+
+05:58.460 --> 06:01.130
+<b>tu préférerais
+exorciser un fléau puissant</b>
+
+06:01.290 --> 06:04.130
+<b>ou tuer
+de nombreux humains altérés ?</b>
+
+06:06.300 --> 06:09.640
+<b>Te connaissant,
+tu choisirais le premier, non ?</b>
+
+06:13.680 --> 06:15.890
+<b>Voici le plan des sous-sols.</b>
+
+06:16.270 --> 06:21.150
+<b>C’est au -4 que les humains altérés
+s’en prennent aux gens ordinaires.</b>
+
+06:23.610 --> 06:27.240
+<b>Quant à ces derniers,
+la majorité doit être au -5.</b>
+
+06:28.700 --> 06:29.660
+<b>C’est pas sûr ?</b>
+
+06:29.780 --> 06:33.490
+<b>Les corbeaux que j’ai utilisés
+possèdent de l’énergie occulte,</b>
+
+06:33.620 --> 06:35.910
+<b>ce qui les empêche
+d’atteindre cet étage.</b>
+
+06:36.290 --> 06:38.370
+<b>À force de fuir les fléaux,</b>
+
+06:38.500 --> 06:41.420
+<b>les non-exorcistes
+ont dû se retrouver en bas.</b>
+
+06:42.000 --> 06:44.500
+<b>Aussi, mes corbeaux ont été tués</b>
+
+06:44.670 --> 06:47.300
+<b>entre les niveaux -1 et -2.</b>
+
+06:47.510 --> 06:51.430
+<b>Par le fléau ou maître des fléaux
+ayant abaissé le Rideau.</b>
+
+06:52.050 --> 06:55.470
+<b>Peut-être empêche-t-il les gens
+de remonter,</b>
+
+06:55.620 --> 06:57.920
+<b>ou peut-être est-il coincé
+par le Rideau.</b>
+
+06:58.060 --> 06:59.770
+<b>Je n’en sais pas plus,</b>
+
+06:59.940 --> 07:03.690
+<b>ni même ce qu’ils comptent faire
+en isolant le 5e sous-sol.</b>
+
+07:06.440 --> 07:07.570
+<b>Donc l’autre,</b>
+
+07:08.570 --> 07:10.160
+<b>il est là,</b>
+
+07:10.860 --> 07:11.910
+<b>juste en bas ?</b>
+
+07:12.870 --> 07:14.120
+<b>Je l’ignore.</b>
+
+07:14.280 --> 07:18.950
+<b>Mes corbeaux ont été tués
+avant de trouver le rapiécé.</b>
+
+07:19.120 --> 07:23.580
+<b>Mais s’il y a des humains altérés,
+il doit être dans les parages.</b>
+
+07:24.290 --> 07:26.880
+<b>J’hésitais à ce qu’on se sépare,</b>
+
+07:27.050 --> 07:30.840
+<b>mais si on traîne trop,
+tous les gens restants au -4 mourront.</b>
+
+07:32.010 --> 07:35.510
+<b>Nous, on descend à cet étage
+à partir de la sortie 7</b>
+
+07:35.640 --> 07:37.760
+<b>pour les faire sortir de là.</b>
+
+07:38.470 --> 07:42.140
+<b>Toi, rejoins-nous si ça dégénère.</b>
+
+07:42.330 --> 07:44.100
+<b>Idéalement,</b>
+
+07:44.230 --> 07:48.070
+<b>j’aimerais qu’on ne se retrouve
+que quand les Rideaux seront brisés,</b>
+
+07:48.190 --> 07:50.240
+<b>que les gens seront sortis</b>
+
+07:50.360 --> 07:54.990
+<b>et qu’on aura découvert
+ce qu’ils comptent faire au -5.</b>
+
+07:55.910 --> 07:58.040
+<b>Ça se passera bien, Mei.</b>
+
+07:58.040 --> 08:02.160
+<b>21 H 03 - NIVEAU -2 DE LA STATION DU SANCTUAIRE MEIJI</b>
+
+07:58.790 --> 08:01.370
+<b>Je ne perdrai plus.</b>
+
+08:14.970 --> 08:16.800
+<b>Tu veux ma photo ?</b>
+
+08:23.640 --> 08:25.400
+<b>Attends, t’es un…</b>
+
+08:25.770 --> 08:28.230
+<b>un esgo… un esgor…</b>
+
+08:28.360 --> 08:31.280
+<b>un eks… exor… exorciste !</b>
+
+08:32.740 --> 08:34.280
+<b>T’es un exorciste.</b>
+
+08:34.570 --> 08:37.910
+<b>Je le sais. Je suis intelligent.</b>
+
+08:38.530 --> 08:41.040
+<b>Je cherche le fléau rapiécé.</b>
+
+08:41.410 --> 08:42.450
+<b>Où il est ?</b>
+
+08:43.750 --> 08:47.580
+<b>Ra… piécé… Rapiécé ?</b>
+
+08:48.460 --> 08:50.630
+<b>Le gars au visage cousu.</b>
+
+08:51.460 --> 08:54.050
+<b>Tais-toi,
+je sais ce que ça veut dire !</b>
+
+08:54.170 --> 08:56.340
+<b>Je suis intelligent, je te rappelle !</b>
+
+08:56.970 --> 08:58.430
+<b>Mahito est en bas.</b>
+
+08:58.550 --> 09:01.850
+<b>Moi, je reste ici
+pour protéger le Rideau.</b>
+
+09:02.720 --> 09:03.730
+<b>Mahito…</b>
+
+09:04.350 --> 09:06.400
+<b><i>Junpei l’avait appelé comme ça.</i></b>
+
+09:06.900 --> 09:09.150
+<b><i>Mais je m’en fous de son nom.</i></b>
+
+09:09.820 --> 09:12.190
+<b><i>Les barrières magiques,
+c’est compliqué.</i></b>
+
+09:12.320 --> 09:15.360
+<b><i>Beaucoup d’exorcistes forts
+ne savent pas en créer.</i></b>
+
+09:15.530 --> 09:17.410
+<b><i>Moi, j’y arrive, évidemment.</i></b>
+
+09:18.240 --> 09:22.620
+<b><i>C’est lui qui aurait abaissé
+deux Rideaux ? J’en doute…</i></b>
+
+09:24.200 --> 09:27.830
+<b>J’aime pas le sort de Mahito.</b>
+
+09:29.080 --> 09:32.420
+<b><i>Il a dit
+qu’il protégeait le Rideau.</i></b>
+
+09:32.670 --> 09:34.970
+<b><i>Ce truc est clairement louche.</i></b>
+
+09:35.090 --> 09:36.590
+<b><i>Je le pète, et on verra.</i></b>
+
+09:36.760 --> 09:39.970
+<b>Tu as remarqué
+que les humains qui ont été changés</b>
+
+09:40.100 --> 09:41.810
+<b>ont moins bon goût ?</b>
+
+09:43.520 --> 09:47.520
+<b>Je suis intelligent,
+je sais faire la différence !</b>
+
+09:55.990 --> 09:59.620
+<b>Toi et tes potes,
+vous êtes tous les mêmes.</b>
+
+10:00.160 --> 10:02.490
+<b>Vous sous-estimez les humains,</b>
+
+10:02.910 --> 10:04.490
+<b>et ça va vous coûter cher.</b>
+
+10:09.370 --> 10:13.210
+<b>Pauvre petit, t’es pas intelligent !</b>
+
+10:13.630 --> 10:15.630
+<b>Je vois bien que tu sais pas</b>
+
+10:16.340 --> 10:18.010
+<b>quel genre de fléau je suis.</b>
+
+10:18.800 --> 10:20.430
+<b>Je vais t’apprendre</b>
+
+10:20.800 --> 10:22.510
+<b>que dans ce monde,</b>
+
+10:23.640 --> 10:27.020
+<b>les pas-intelligents
+meurent en premier.</b>
+
+10:27.850 --> 10:29.980
+<b>\hÇA SE VOIT
+
+
+
+
+
+</b>
+
+10:28.230 --> 10:29.980
+<b>Bah t’es un fléau criquet.</b>
+
+10:39.910 --> 10:41.030
+<b><i>Cet humain…</i></b>
+
+10:42.030 --> 10:43.450
+<b><i>il est intelligent !</i></b>
+
+10:47.370 --> 10:49.040
+<b>JUJUTSU KAISEN</b>
+
+10:52.330 --> 10:54.040
+<b>JUJUTSU KAISEN</b>
+
+10:54.380 --> 10:55.500
+<b><i>Les criquets.</i></b>
+
+10:55.840 --> 10:59.630
+<b><i>En grand nombre,
+ils ravagent tout sur leur chemin.</i></b>
+
+11:00.220 --> 11:02.940
+<b><i>Ils ne dévorent
+pas seulement les champs,</i></b>
+
+11:03.070 --> 11:07.250
+<b><i>mais aussi le papier, les vêtements,
+les habitats en bois et la végétation.</i></b>
+
+11:07.640 --> 11:12.440
+<b><i>En un jour, un criquet adulte
+mange l’équivalent de son poids.</i></b>
+
+11:12.560 --> 11:15.070
+<b><i>Face à une nuée d’une tonne,</i></b>
+
+11:15.190 --> 11:19.680
+<b><i>c’est la nourriture de 2 500 personnes
+qui disparaît en une journée.</i></b>
+
+11:20.110 --> 11:23.200
+<b><i>Leurs cris résonnent jour et nuit,</i></b>
+
+11:23.320 --> 11:25.660
+<b><i>et les champs dévastés
+après leur passage</i></b>
+
+11:25.780 --> 11:29.910
+<b><i>sont recouverts
+de la mucosité noire qu’ils sécrètent,</i></b>
+
+11:30.080 --> 11:33.590
+<b><i>peignant
+une atmosphère cataclysmique.</i></b>
+
+11:34.290 --> 11:37.300
+<b><i>Les humains associent ces insectes
+au diable,</i></b>
+
+11:37.420 --> 11:40.220
+<b><i>les craignent, les haïssent
+et les maudissent.</i></b>
+
+11:46.850 --> 11:48.770
+<b><i>Sa mâchoire est puissante.</i></b>
+
+11:48.890 --> 11:52.600
+<b><i>Vu qu’il me comprend,
+il est d’une classe assez élevée.</i></b>
+
+12:39.440 --> 12:41.060
+<b>Jamais tu attaques ?</b>
+
+12:41.210 --> 12:43.240
+<b>T’es de quel type ?</b>
+
+12:43.650 --> 12:46.320
+<b><i>Il se repose juste
+sur la force brute.</i></b>
+
+12:46.950 --> 12:47.740
+<b>C’est-à-dire ?</b>
+
+12:48.030 --> 12:49.580
+<b>T’es intelligent,</b>
+
+12:50.200 --> 12:52.080
+<b>ou pas intelligent ?</b>
+
+12:53.000 --> 12:55.750
+<b>Moi, je suis intelligent !</b>
+
+12:57.080 --> 13:01.250
+<b>Les gens vraiment intelligents
+ne s’en vantent pas.</b>
+
+13:01.800 --> 13:03.330
+<b>C’est vrai ?</b>
+
+13:29.030 --> 13:30.490
+<b>Voyons qui est supérieur.</b>
+
+13:30.830 --> 13:32.870
+<b>Celui avec deux bras,</b>
+
+13:33.580 --> 13:35.210
+<b>ou celui avec quatre !</b>
+
+13:53.560 --> 13:55.640
+<b><i>Je suis plus évolué qu’un humain,</i></b>
+
+13:55.980 --> 13:58.900
+<b><i>j’ai plus de force
+et une meilleure vue,</i></b>
+
+13:59.230 --> 14:01.190
+<b><i>alors comment c’est possible ?</i></b>
+
+14:07.820 --> 14:11.400
+<b><i>Pourquoi j’ai pas pu placer
+un seul coup ?</i></b>
+
+14:34.060 --> 14:36.930
+<b>Ça fait rien,
+je suis plus intelligent !</b>
+
+14:37.350 --> 14:39.940
+<b><i>Les criquets
+pondent dans la terre.</i></b>
+
+14:40.060 --> 14:43.520
+<b><i>Dans ce but, leur abdomen s’étire,
+le bout se durcit</i></b>
+
+14:43.650 --> 14:47.280
+<b><i>et s’étend
+trois fois plus que d’ordinaire.</i></b>
+
+14:50.200 --> 14:51.740
+<b>J’ai gagné !</b>
+
+14:57.580 --> 14:59.500
+<b><i>Il n’usait pas que de la force.</i></b>
+
+15:00.120 --> 15:02.080
+<b><i>Mais ce n’était pas suffisant.</i></b>
+
+15:02.210 --> 15:04.460
+<b>T’as bouffé des humains.</b>
+
+15:05.300 --> 15:07.210
+<b>T’es prêt à assumer ?</b>
+
+15:07.880 --> 15:10.720
+<b><i>Sa botte secrète
+était loin de compenser</i></b>
+
+15:12.340 --> 15:14.140
+<b><i>la différence de niveau.</i></b>
+
+15:18.730 --> 15:19.810
+<b>Mei Mei.</b>
+
+15:20.140 --> 15:21.100
+<b>Oui.</b>
+
+15:21.600 --> 15:23.310
+<b>Le Rideau est levé.</b>
+
+15:23.610 --> 15:26.940
+<b>Retrouvons Itadori
+et descendons au -5.</b>
+
+15:30.570 --> 15:36.080
+<b>21 H 14 - NIVEAU -5 DE LA STATION DU SANCTUAIRE MEIJI</b>
+
+15:31.280 --> 15:33.450
+<b>Le criquet est mort.</b>
+
+15:33.780 --> 15:36.080
+<b>Ils ont envoyé un bon exorciste.</b>
+
+15:37.040 --> 15:40.870
+<b>Je suis déçu,
+j’aurais bien voulu l’affronter aussi.</b>
+
+15:42.540 --> 15:44.540
+<b>Mais c’est la vie.</b>
+
+15:46.500 --> 15:48.090
+<b>Le boulot d’abord.</b>
+
+15:49.840 --> 15:52.340
+<b>21 H 15 - NIVEAU -4 DE LA STATION DU SANCTUAIRE MEIJI</b>
+
+15:50.340 --> 15:52.340
+<b>Tu m’impressionnes, Itadori.</b>
+
+15:53.130 --> 15:54.180
+<b>Pourquoi ?</b>
+
+15:55.010 --> 15:59.220
+<b>Pour être honnête,
+je pensais que tu aurais eu plus de mal.</b>
+
+15:59.770 --> 16:02.980
+<b>Tu as déjà de quoi être classe 1.</b>
+
+16:03.100 --> 16:07.440
+<b>Sans aucun sort.
+Ça n’était pas arrivé depuis Kusakabe.</b>
+
+16:08.110 --> 16:09.730
+<b>C’était pas le rapiécé.</b>
+
+16:10.030 --> 16:13.030
+<b>Sinon, ça aurait été
+beaucoup plus compliqué.</b>
+
+16:13.200 --> 16:15.320
+<b>Accepte ses compliments !</b>
+
+16:15.490 --> 16:16.990
+<b>Merci, c’est un honneur !</b>
+
+16:23.750 --> 16:26.420
+<b>– On arrive trop tard ?
+– Hé, vous, là-bas !</b>
+
+16:26.630 --> 16:27.790
+<b>Tout va bien ?</b>
+
+16:28.710 --> 16:30.170
+<b>Où sont les autres ?</b>
+
+16:40.430 --> 16:43.180
+<b>Pas besoin d’en faire autant,
+je partirai pas.</b>
+
+16:43.690 --> 16:48.190
+<b>Si je m’enfuis,
+vous tuerez les humains, pas vrai ?</b>
+
+16:50.940 --> 16:52.440
+<b>C’EST POUR ÇA
+QUE JE SUIS VENU</b>
+
+16:52.860 --> 16:54.900
+<b>Ils font quoi, ces deux ?</b>
+
+16:55.070 --> 16:56.450
+<b>Ils sont quatre, hein.</b>
+
+16:57.240 --> 17:00.200
+<b>On les tuera si tu t’enfuis, tu crois ?</b>
+
+17:00.910 --> 17:05.870
+<b><i>Sais-tu dans quelle condition
+Satoru Gojo déploie toute sa puissance ?</i></b>
+
+17:09.210 --> 17:11.960
+<b><i>Tourne pas autour du pot, explique.</i></b>
+
+17:12.380 --> 17:13.800
+<b><i>C’est simple.</i></b>
+
+17:15.630 --> 17:17.340
+<b><i>C’est quand il est seul.</i></b>
+
+17:18.600 --> 17:20.720
+<b>En réalité…</b>
+
+17:26.100 --> 17:27.810
+<b>on les tue quand on veut !</b>
+
+17:31.980 --> 17:34.070
+<b>Éloignez-vous, ou vous mourrez.</b>
+
+17:34.360 --> 17:37.240
+<b><i>OK, donc s’ils ont bouché l’entrée,</i></b>
+
+17:37.320 --> 17:38.070
+<b>C’EST BLOQUÉ</b>
+
+17:37.360 --> 17:41.580
+<b><i>c’est pour m’empêcher de voir
+s’il y avait des gens derrière.</i></b>
+
+17:38.820 --> 17:39.570
+<b>C’EST BLOQUÉ</b>
+
+17:40.330 --> 17:41.080
+<b>C’EST BLOQUÉ</b>
+
+17:41.910 --> 17:46.290
+<b><i>Tous les autres exorcistes
+ne sont qu’une gêne pour lui.</i></b>
+
+17:46.750 --> 17:49.710
+<b><i>Alors on va l’entourer
+d’encore pire que ça…</i></b>
+
+17:49.830 --> 17:51.500
+<b><i>Des non-exorcistes.</i></b>
+
+18:09.520 --> 18:11.440
+<b>Manipulation des hématies,</b>
+
+18:12.090 --> 18:13.400
+<b>Fauchage.</b>
+
+18:34.000 --> 18:38.720
+<b><i>Même faible, le sort inversé est
+deux fois plus puissant que la normale.</i></b>
+
+18:38.970 --> 18:42.510
+<b><i>S’il s’en sert,
+il touchera forcément les civils.</i></b>
+
+18:42.930 --> 18:47.890
+<b><i>Et il ne pourra pas non plus
+déployer efficacement le Bleu.</i></b>
+
+18:51.310 --> 18:54.900
+<b><i>Ni même l’utiliser
+pour se déplacer rapidement.</i></b>
+
+18:55.190 --> 18:58.740
+<b><i>Ça serait comme passer
+en rouleau compresseur sur la foule.</i></b>
+
+18:59.070 --> 19:00.740
+<b><i>Ça les tuerait instantanément.</i></b>
+
+19:00.860 --> 19:02.280
+<b><i>Dans cette situation,</i></b>
+
+19:02.450 --> 19:05.910
+<b><i>Satoru Gojo
+restera sur la défensive.</i></b>
+
+19:18.170 --> 19:19.920
+<b>Prolongement du Territoire !</b>
+
+19:45.160 --> 19:46.490
+<b>Je comprends mieux.</b>
+
+19:46.660 --> 19:50.290
+<b>Logique, vu que vous êtes
+avec des maîtres des fléaux.</b>
+
+19:51.460 --> 19:56.000
+<b><i>Le Prolongement est semblable
+au Territoire simple.</i></b>
+
+19:56.630 --> 19:58.760
+<b><i>Un Territoire entoure le lanceur.</i></b>
+
+19:58.880 --> 20:03.430
+<b><i>Les coups ne réussissent pas tous,
+mais les sorts sont neutralisés.</i></b>
+
+20:07.010 --> 20:11.140
+<b>Avec ça, vous êtes sûrs de m’avoir.</b>
+
+20:11.520 --> 20:15.230
+<b><i>Et s’il étend
+sa Sphère de l’espace infini ?</i></b>
+
+20:15.520 --> 20:17.980
+<b><i>Seuls lui et ceux qu’ils touchent</i></b>
+
+20:18.110 --> 20:21.950
+<b><i>sont épargnés par son Territoire
+lorsqu’il l’étend.</i></b>
+
+20:22.650 --> 20:23.740
+<b><i>De plus,</i></b>
+
+20:24.030 --> 20:27.780
+<b><i>même s’il était capable
+de n’y enfermer que vous et lui,</i></b>
+
+20:27.910 --> 20:29.910
+<b><i>au milieu d’une foule,</i></b>
+
+20:29.910 --> 20:35.170
+<b>RIDEAU</b>
+
+20:30.080 --> 20:32.160
+<b><i>un grand nombre de personnes</i></b>
+
+20:32.330 --> 20:35.170
+<b><i>se ferait écraser
+entre sa Sphère et le Rideau.</i></b>
+
+20:32.410 --> 20:35.170
+<b>SPHÈRE
+DE L’ESPACE INFINI</b>
+
+20:35.670 --> 20:39.920
+<b><i>Il y a 99 % de chances
+qu’il n’étende pas son Territoire.</i></b>
+
+20:40.800 --> 20:44.130
+<b><i>Et inversement,
+vous ne devez pas déployer les vôtres.</i></b>
+
+20:44.510 --> 20:47.140
+<b><i>Si vous y impliquez
+des non-exorcistes,</i></b>
+
+20:47.260 --> 20:51.180
+<b><i>il n’aura plus d’autre choix
+que de riposter avec le sien.</i></b>
+
+20:51.600 --> 20:54.850
+<b><i>Et tu sais pertinemment
+que son Territoire est supérieur.</i></b>
+
+20:58.020 --> 21:01.070
+<b><i>Vous devrez
+maintenir son attention</i></b>
+
+21:01.280 --> 21:04.700
+<b><i>sur l’exorcisation des fléaux
+et la protection des civils.</i></b>
+
+21:09.830 --> 21:11.450
+<b>Lève-toi, vite !</b>
+
+21:11.950 --> 21:13.770
+<b>Désespère pas !</b>
+
+21:14.660 --> 21:15.790
+<b>Ça va aller !</b>
+
+21:16.420 --> 21:18.410
+<b>Viens, accroche-toi à moi.</b>
+
+21:23.760 --> 21:26.380
+<b>Je t’avais prévenu
+de ne pas t’enfuir.</b>
+
+21:27.510 --> 21:29.850
+<b>Tu ne comprends que comme ça ?</b>
+
+21:31.560 --> 21:33.100
+<b>Non,</b>
+
+21:33.680 --> 21:35.890
+<b>je suis surpris, c’est tout.</b>
+
+21:36.060 --> 21:38.810
+<b>C’est ça, ton excuse ?</b>
+
+21:39.610 --> 21:41.320
+<b>Non, crâne d’œuf.</b>
+
+21:46.530 --> 21:48.990
+<b>Je suis surpris
+par vos cervelles vides,</b>
+
+21:49.120 --> 21:52.540
+<b>si vous croyez pouvoir me vaincre
+juste avec ça.</b>
+
+21:56.540 --> 21:59.420
+<b><i>J’ai besoin
+d’au moins vingt minutes.</i></b>
+
+21:59.670 --> 22:01.250
+<b><i>Après ça,</i></b>
+
+22:02.050 --> 22:05.170
+<b><i>j’entrerai en scène
+avec la Lisière du supplice.</i></b>
+
+23:34.470 --> 23:37.140
+<b>Traduction, adaptation :
+Adam Plaza</b>
+
+23:37.140 --> 23:39.060
+<b>Repérage : Clément Hautavoine</b>
+
+23:40.480 --> 23:42.900
+<b><i>Décrivez les qualités
+de Satoru Gojo !</i></b>
+
+23:43.020 --> 23:44.110
+<b><i>OK !</i></b>
+
+23:44.270 --> 23:45.270
+<b><i>Il est fort !</i></b>
+
+23:45.570 --> 23:47.650
+<b><i>– Il est fort.
+– Et c’est tout !</i></b>
+
+23:47.780 --> 23:49.440
+<b><i>Ne manquez pas la suite !</i></b>
+
+23:47.780 --> 23:55.120
+<b>PROCHAIN ÉPISODE
+
+LE DRAME DE SHIBUYA - OUVERTURE</b>
+
+23:49.610 --> 23:50.860
+<b><i>Il est riche.</i></b>
+
+23:51.030 --> 23:52.990
+<b><i>La bonne blague !</i></b>
+
+23:53.160 --> 23:54.700
+<b><i>Je vous déteste tous.</i></b>
