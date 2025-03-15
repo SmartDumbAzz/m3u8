@@ -109,7 +109,7 @@ def process_m3u8(url):
 def search_series(query):
     """Search for anime series on the website"""
     with sync_playwright() as p:
-        browser = p.firefox.launch(headless=True)
+        browser = p.firefox.launch(headless=False)
         page = browser.new_page()
         page.goto(SEARCH_URL.format(query=query))
         page.wait_for_selector('.flw-item', timeout=20000)
@@ -128,7 +128,7 @@ def search_series(query):
 def get_episodes(url):
     """Get all episodes from a series (season) page"""
     with sync_playwright() as p:
-        browser = p.firefox.launch(headless=True)
+        browser = p.firefox.launch(headless=False)
         page = browser.new_page()
         page.goto(url)
         page.wait_for_selector('#detail-ss-list .ssl-item', timeout=20000)
@@ -178,7 +178,7 @@ def process_episode(url, sub_dir, dub_dir, series_name, season_info, ep_idx):
         with sync_playwright() as p:
             browser = p.firefox.launch(
                 proxy={"server": "http://localhost:8080"},
-                headless=True
+                headless=False
             )
             context = browser.new_context(ignore_https_errors=True)
             context.add_init_script("delete Object.getPrototypeOf(navigator).webdriver;")
